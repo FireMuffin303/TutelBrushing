@@ -4,8 +4,12 @@
   "version": "${version}",
   "name": "Tutel Brushing",
   "description": "Turtle can get barnacles (does not harm them) when they swim for long enough. Brush them off to obtain turtle scutes!",
-  "authors": [],
-  "contact": {},
+  "authors": ["FireMuffin303"],
+  "contact": {
+    "homepage": "https://github.com/FireMuffin303/TutelBrushing",
+    "issues": "https://github.com/FireMuffin303/TutelBrushing/issues",
+    "sources" : "https://github.com/FireMuffin303/TutelBrushing"
+  },
   "license": "MIT",
   "icon": "assets/tutelbrushing/icon.png",
   "environment": "*",
