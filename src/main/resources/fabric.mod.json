@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "tutelbrushing",
+  "version": "${version}",
+  "name": "Tutel Brushing",
+  "description": "Turtle can get barnacles (does not harm them) when they swim for long enough. Brush them off to obtain turtle scutes!",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tutelbrushing/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.firemuffin303.easierturtlescute.client.EasierturtlescuteClient"
+    ],
+    "main": [
+      "net.firemuffin303.easierturtlescute.Easierturtlescute"
+    ]
+  },
+  "mixins": [
+    "easierturtlescute.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

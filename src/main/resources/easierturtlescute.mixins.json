@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.firemuffin303.easierturtlescute.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "TurtleEntityMixin"
+  ],
+  "client": [
+    "TurtleEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
