@@ -18,7 +18,10 @@
       "net.firemuffin303.easierturtlescute.client.EasierturtlescuteClient"
     ],
     "main": [
-      "net.firemuffin303.easierturtlescute.Easierturtlescute"
+      "net.firemuffin303.easierturtlescute.TutelBrushingMod"
+    ],
+    "fabric-datagen": [
+      "net.firemuffin303.easierturtlescute.datagen.ModDataGen"
     ]
   },
   "mixins": [

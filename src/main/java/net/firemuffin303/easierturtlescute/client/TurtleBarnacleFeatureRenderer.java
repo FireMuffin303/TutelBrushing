@@ -1,18 +1,14 @@
 package net.firemuffin303.easierturtlescute.client;
 
-import net.firemuffin303.easierturtlescute.Easierturtlescute;
 import net.firemuffin303.easierturtlescute.TurtleAccessor;
-import net.firemuffin303.easierturtlescute.mixin.TurtleEntityMixin;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
-import net.minecraft.client.render.entity.LivingEntityRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;
 import net.minecraft.client.render.entity.model.TurtleEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.passive.TurtleEntity;
 import net.minecraft.util.Identifier;
 

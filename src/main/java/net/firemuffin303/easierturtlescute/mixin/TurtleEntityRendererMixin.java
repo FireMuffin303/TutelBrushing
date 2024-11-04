@@ -1,6 +1,6 @@
 package net.firemuffin303.easierturtlescute.mixin;
 
-import net.firemuffin303.easierturtlescute.Easierturtlescute;
+import net.firemuffin303.easierturtlescute.TutelBrushingMod;
 import net.firemuffin303.easierturtlescute.client.TurtleBarnacleFeatureRenderer;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
@@ -17,7 +17,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(TurtleEntityRenderer.class)
 public abstract class TurtleEntityRendererMixin extends MobEntityRenderer<TurtleEntity, TurtleEntityModel<TurtleEntity>> {
     @Unique
-    private final Identifier BARNACLE_TEXTURE = new Identifier(Easierturtlescute.MODID,"textures/entity/turtle/barnacle.png");
+    private final Identifier BARNACLE_TEXTURE = new Identifier(TutelBrushingMod.MODID,"textures/entity/turtle/barnacle.png");
     public TurtleEntityRendererMixin(EntityRendererFactory.Context context, TurtleEntityModel<TurtleEntity> entityModel, float f) {
         super(context, entityModel, f);
     }
